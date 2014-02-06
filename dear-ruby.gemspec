@@ -6,11 +6,11 @@ require 'dear/ruby/version'
 Gem::Specification.new do |spec|
   spec.name          = "dear-ruby"
   spec.version       = Dear::Ruby::VERSION
-  spec.authors       = ["kristenmills"]
+  spec.authors       = ["Kristen Mills"]
   spec.email         = ["kristen@kristen-mills.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "Write a letter to do ruby commands"
+  spec.description   = "Write a letter to do ruby commands"
+  spec.homepage      = "https://github.com/letters-to-your-terminal/dear-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
